@@ -13,11 +13,6 @@ Satyam_Rana_Lab_4.py – Functions and modular design
 Satyam_Rana_Lab_5.py – Data structures (lists, tuples, dictionaries)
 Satyam_Rana_Lab_6.py – Object‑oriented programming concepts
 
-markdown
-Copy code
-
-(Adjust the descriptions above if your files cover different topics.)
-
 ## Learning Outcomes
 
 The contents of these labs align with the expected learning outcomes for CMP4266, including:
@@ -32,11 +27,6 @@ The contents of these labs align with the expected learning outcomes for CMP4266
 1. Install Python 3.x if it’s not already installed.  
 2. Navigate to the repository directory.  
 3. Run any lab file from the command line:
-
-python Satyam_Rana_Lab_1.py
-
-pgsql
-Copy code
 
 Replace `Lab_1` with the specific lab you want to execute.
 
