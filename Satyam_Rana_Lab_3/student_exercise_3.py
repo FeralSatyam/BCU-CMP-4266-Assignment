@@ -1,5 +1,5 @@
 
-#3.1
+# # 3.1
 # import math
 # n = int(input("Enter a number: "))
 # isPrime = True
@@ -23,7 +23,7 @@
     
 
 
-#3.2
+# #3.2
 print("*******WELCOME TO OUR BANK*******")
 
 user_name=input(("Please enter your name: "))
