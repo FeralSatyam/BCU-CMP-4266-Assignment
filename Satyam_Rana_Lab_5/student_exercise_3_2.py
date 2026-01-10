@@ -1,4 +1,4 @@
-#3.2
+# 3.2
 import math
 
 def get_next_point(step):
@@ -14,6 +14,7 @@ def main():
     current_point = (0, 0)
     step = 1
     distances = []
+    total_distance = 0.0
 
     while True:
         print("----------")
@@ -22,6 +23,7 @@ def main():
             break
         distance = cal_distance(current_point, next_point)
         distances.append(distance)
+        total_distance += distance
         current_point = next_point
         step += 1
         print("----------")
@@ -29,6 +31,8 @@ def main():
     print("------ Distances ------")
     for i, d in enumerate(distances, start=1):
         print(f"Step {i}: {d:.2f} units")
+
+    print(f"Total distance traveled: {total_distance:.2f} units")
 
 if __name__ == "__main__":
     main()
