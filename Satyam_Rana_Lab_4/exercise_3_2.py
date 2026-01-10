@@ -28,27 +28,11 @@ def cal_percentage(h0,h1,h2,h3,h4,h5,h6,h7):
     p7 = float((h7/total_house_sum) * 100)
     return p0, p1, p2, p3, p4, p5, p6, p7
 
-def display_result(h0,h1,h2,h3,h4,h5,h6,h7,p0,p1,p2,p3,p4,p5,p6,p7):
-    for i in range(8):
-        print(f"Occupants: {i}\t", end="")
-    print(" ")
-    print(f"No. houses: {h0}\t", end="")
-    print(f"No. houses: {h1}\t", end="")
-    print(f"No. houses: {h2}\t", end="")
-    print(f"No. houses: {h3}\t", end="")
-    print(f"No. houses: {h4}\t", end="")
-    print(f"No. houses: {h5}\t", end="")
-    print(f"No. houses: {h6}\t", end="")
-    print(f"No. houses: {h7}\t", end="")
-    print(" ")
-    print(f"Percentage: {p0:.1f}%\t", end="")
-    print(f"Percentage: {p1:.1f}%\t", end="")
-    print(f"Percentage: {p2:.1f}%\t", end="")
-    print(f"Percentage: {p3:.1f}%\t", end="")
-    print(f"Percentage: {p4:.1f}%\t", end="")
-    print(f"Percentage: {p5:.1f}%\t", end="")
-    print(f"Percentage: {p6:.1f}%\t", end="")
-    print(f"Percentage: {p7:.1f}%\t", end="")
+def display_result(h0, h1, h2, h3, h4, h5, h6, h7, p0, p1, p2, p3, p4, p5, p6, p7):
+    print(f"Occupants:\t0\t1\t2\t3\t4\t5\t6\t>6")
+    print(f"No. houses:\t{h0}\t{h1}\t{h2}\t{h3}\t{h4}\t{h5}\t{h6}\t{h7}")
+    print(f"Percentage:\t{p0:.1f}%\t{p1:.1f}%\t{p2:.1f}%\t{p3:.1f}%\t{p4:.1f}%\t{p5:.1f}%\t{p6:.1f}%\t{p7:.1f}%")
+
     
 if __name__=="__main__":
     h0,h1,h2,h3,h4,h5,h6,h7=get_data()
