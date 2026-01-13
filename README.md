@@ -1,35 +1,30 @@
-# BCU‑CMP‑4266‑Assignment
+# BCU-CMP-4266 Assignment
 
-This repository contains Python lab solutions for the **CMP4266 Computer Programming** module at Birmingham City University. The module focuses on foundational programming skills including variables, control flow, functions, data structures, loops, object‑oriented programming, and testing. :contentReference[oaicite:0]{index=0}
+This repository contains coursework submitted as part of a university assignment for the module **CMP-4266** at **BCU**.
 
-## Repository Structure
+## Purpose
 
-Each file in this repository corresponds to a weekly lab or practical task:
+This project exists **only** to fulfill academic assessment requirements.  
+It demonstrates understanding of the concepts taught in the course and is not intended for production use.
 
-Satyam_Rana_Lab_1.py – Introduction to Python and basic syntax
-Satyam_Rana_Lab_2.py – Data types and operators
-Satyam_Rana_Lab_3.py – Control flow and loops
-Satyam_Rana_Lab_4.py – Functions and modular design
-Satyam_Rana_Lab_5.py – Data structures (lists, tuples, dictionaries)
-Satyam_Rana_Lab_6.py – Object‑oriented programming concepts
+## Usage Restrictions
 
-## Learning Outcomes
+- **Do NOT reuse, copy, modify, or redistribute this code** for any purpose.
+- **Do NOT submit this code** (or parts of it) for other academic assignments.
+- **Do NOT use this code** in personal, commercial, or open-source projects.
 
-The contents of these labs align with the expected learning outcomes for CMP4266, including:
+This repository is strictly for **educational and evaluation purposes**.
 
-- Problem analysis and solution design  
-- Implementation of solutions using Python  
-- Use of control structures, functions, collections, and classes  
-- Basic program testing and evaluation :contentReference[oaicite:1]{index=1}
+## Academic Integrity Notice
 
-## How to Run the Code
+Reusing this code violates academic integrity policies.  
+Any misuse is the sole responsibility of the individual copying or distributing it.
 
-1. Install Python 3.x if it’s not already installed.  
-2. Navigate to the repository directory.  
-3. Run any lab file from the command line:
+## Author
 
-Replace `Lab_1` with the specific lab you want to execute.
+**Satyam Rana**  
+University Assignment – CMP-4266
 
-## License
+## Disclaimer
 
-No license specified. This repository is for academic and personal use.
+The code is provided *as-is* with no guarantees of correctness, completeness, or optimization.
