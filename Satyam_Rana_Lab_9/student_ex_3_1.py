@@ -3,7 +3,6 @@ class Vehicle:
         self.__make = make
         self.__model = model
         self.__state = "stoppped"
-    
     def move(self):
         print("I am moving!")
         self.__state = "moving"

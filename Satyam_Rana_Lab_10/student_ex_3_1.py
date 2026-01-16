@@ -99,8 +99,9 @@ c = Customer('12A','Anna','Duka',Address(42,'Curzon Street','Birmingham', 'B4 2S
 def save_cRecords(lst):
     with open("customerList.txt", 'w') as f:
         for c in lst:
-            addr = f"{c.get_number}, {c.get_street}, {c.get_town}, {c.get_post_code}, "
-            f.write(f"{c.get_cId}, {c.get_first_name}, {c.get_second_name}, {c.get_address}, {addr}, {c.get_balance}\n")
+            addObj = c.get_address()
+            addr = f"{addObj.get_number()}, {addObj.get_street()}, {addObj.get_town()}, {addObj.get_post_code()}"
+            f.write(f"{c.get_cID()}, {c.get_first_name()}, {c.get_second_name()}, {addr}, {c.get_balance()}\n")
 
 
 c1 = Customer('12A','Rea','Koci',Address('42','Curzon Street','Birmingham', 'B4 2SU'),888)
@@ -109,9 +110,10 @@ c2 = Customer('11A','Liora','Koci',Address('42b','Curzon Street2','Birmingham2',
 save_cRecords([c1,c2])
 
 def read_customerRecords(data_file):
-   
-    #todo11
-    pass
+    try:
+        with open(data_file, 'r') as f:
+            print(f.read())
 
-
+    except FileNotFoundError:
+        print("File Not Found")
 print(read_customerRecords('client_list.txt'))
