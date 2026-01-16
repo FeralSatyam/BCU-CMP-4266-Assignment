@@ -67,3 +67,36 @@
 #         return self.salary
 
 
+# class A:
+#     def __init__(self, x= 3):
+#         self.x = x
+# class der(A):
+#     def __init__(self,y = 4):
+#         super().__init__()
+#         self.y = y
+# def main():
+#     obj = der()
+#     print(obj.x, obj.y)
+# main()
+
+class Sports:
+    def Play(self):
+        print("Play Games")
+    def showResult(self):
+        print("Result of Sports")
+class Study:
+    def Exam(self):
+        print("Appear to Exam")
+    def showResult(self):
+        print("Result of Exam")
+
+class Student(Sports,Study):
+    def show(self):
+        self.Play()
+        self.Exam()
+        super().Exam()#can call like this
+        self.showResult() #Left to Right Search in Parent Classes
+
+        Study().showResult() #can call like this
+S=Student()
+S.show()
